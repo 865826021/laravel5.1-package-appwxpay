@@ -49,7 +49,7 @@ class AppwxpayController extends Controller
         $options = array(
             'appid'=>'******************',//填写微信分配的公众账号ID
             'mch_id'=>'**********',//填写微信支付分配的商户号
-            'notify_url'=>'http://www.******.com/',//填写微信支付结果回调地址
+            'notify_url'=>'http://www.******.com/appwx/notify',//填写微信支付结果回调地址
             'key'=>'***********'//填写微信商户支付密钥
         );
 
